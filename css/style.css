@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700;800&display=swap");
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ac, .banner .flex, .banner .banner-left {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+p {
+  color: dimgray;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .logo h3 {
+  color: #28C77B;
+}
+
+header .logo p {
+  font-size: 13px;
+}
+
+nav {
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+}
+
+.btn {
+  background: #28C77B;
+  padding: 0px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  -webkit-transition: 1ms;
+  transition: 1ms;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.btn i {
+  border: 1px solid #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.fab {
+  padding: 10px;
+  font-size: 20px;
+  color: #28C77B;
+}
+
+.banner {
+  background: url(../img/img2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.banner .banner-left {
+  height: 100vh;
+  max-width: 60%;
+  padding-top: 200px;
+}
+
+.banner .banner-left p {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 7.8px;
+  color: #fff;
+}
+
+.banner .banner-left h2 {
+  font-size: 50px;
+  padding: 30px 0px;
+}
+
+.banner .banner-right {
+  width: 50%;
+  height: 360px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.banner .banner-right h4 {
+  color: dimgray;
+  text-align: center;
+  padding: 15px;
+  background: #f6f3f3;
+  border-bottom: 1px solid #f6f3f3;
+}
+
+.banner .banner-right p {
+  text-align: center;
+  padding: 10px 0px;
+  line-height: 2;
+}
+
+.banner .banner-right .i {
+  text-align: center;
+  margin-left: 140px;
+  padding: 10px;
+  border-left: 1px dotted #000;
+  border-radius: 10px;
+}
+
+.banner .banner-right .k {
+  padding-top: 20px;
+}
+
+.banner .banner-right .k a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner .banner-right .j {
+  background: #28C77B;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+}
+
+.banner .banner-right .j:hover {
+  background: #7fe2b2;
+  color: #000;
+}
+
+.banner .banner-right .l {
+  background: #28C77B;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  display: inline;
+  margin-left: 10px;
+}
+
+.banner .banner-right .l:hover {
+  background: #7fe2b2;
+  color: #000;
+}
+
+.banner .banner-right .m {
+  background: #28C77B;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  display: inline;
+  margin-left: 20px;
+}
+
+.banner .banner-right .m:hover {
+  background: #7fe2b2;
+  color: #000;
+}
+
+.banner .banner-right .two {
+  padding-top: 28px;
+}
+
+.banner .banner-right .two a {
+  text-decoration: none;
+}
+
+.banner .banner-right .butto {
+  background: #28C77B;
+  padding: 10px 50px;
+  display: inline;
+  color: #fff;
+  text-align: center;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+.banner .banner-right .butto:hover {
+  background: #7fe2b2;
+  color: #000;
+}
+
+.banner .banner-right .end {
+  text-align: center;
+  padding: 10px;
+  color: #000;
+  background: #f6f3f3;
+  border-bottom: 1px solid #f6f3f3;
+}
+
+.bt {
+  background: #28C77B;
+  padding: 15px 40px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 1;
+}
+
+.bt:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.n {
+  background: #fff;
+  padding: 15px 40px;
+  color: #28C77B;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 1;
+}
+
+.n:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner.banner-left {
+    max-width: 90%;
+    padding-top: 0;
+  }
+}
+
+.services {
+  padding: 50px 0px;
+}
+
+.services .sbox {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 5px #ccc;
+          box-shadow: 0px 0px 5px #ccc;
+}
+
+.services .sbox img {
+  width: 100%;
+}
+
+.services .sbox p {
+  padding: 20px 0px;
+}
+
+.p {
+  background: #28C77B;
+  padding: 15px 70px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 1;
+  display: block;
+}
+
+.p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.elementor {
+  padding: 50px;
+  background: #ccc;
+}
+
+.elementor .elementor-left {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 20px;
+}
+
+.elementor .dis {
+  display: inline;
+}
+
+.elementor .dis p {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.elementor .elementor-right {
+  padding: 20px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.tex {
+  text-align: center;
+  padding: 50px;
+}
+
+.tex h2 {
+  font-size: 50px;
+}
+
+.tex p {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.cause {
+  padding: 50px 0px;
+}
+
+.cause .box {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 5px #ccc;
+          box-shadow: 0px 0px 5px #ccc;
+}
+
+.cause .box img {
+  width: 100%;
+}

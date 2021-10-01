@@ -1,0 +1,86 @@
+.services
+{
+    padding: 50px 0px;
+    .sbox 
+    {
+        flex-basis: 30%;
+        padding: 20px;
+        box-shadow: 0px 0px 5px #ccc;
+        img 
+        {
+            width: 100%;
+        }
+        p 
+        {
+            padding: 20px 0px;
+        }
+
+    }
+}
+.p
+{
+ background: $b;
+ padding: 15px 70px;
+ color: $f;
+ border: none;
+ border-radius: 5px;
+ font-size:18px;
+ transition:0.5s;
+ line-height: 1;
+ display: block;
+ &:hover
+ {
+    transform: scale(1.1);
+ }
+ }
+ .elementor 
+ {
+     padding: 50px;
+     background: #ccc;
+     .elementor-left 
+     {
+         flex-basis: 50%;
+         padding: 20px;
+     }
+     .dis
+     {
+         display: inline;
+         p 
+         {
+             flex-basis:30%;
+         }
+     }
+     .elementor-right
+     {
+         padding: 20px;
+         flex-basis: 30%;
+     }
+ }
+ .tex 
+ {
+     text-align: center;
+     padding: 50px;
+     h2 
+     {
+         font-size: 50px;
+     }
+     p 
+     {
+         padding-top: 10px;
+         font-size: 18px;
+     }
+ }
+ .cause 
+ {
+     padding: 50px 0px;
+     .box 
+     {
+        flex-basis: 30%;
+        padding: 20px;
+        box-shadow: 0px 0px 5px #ccc;
+         img 
+         {
+             width: 100%;
+         }
+     }
+ }

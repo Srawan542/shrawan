@@ -1,0 +1,181 @@
+.banner 
+{
+    background:url(../img/img2.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   color:$f;
+   .flex
+   {
+       @extend.ac;
+   }
+   .banner-left 
+   {
+       height: 100vh;
+       max-width: 60%;
+       padding-top: 200px;
+       @extend.ac;
+       p 
+       {
+           font-size: 12px;
+           font-weight: 600;
+           text-transform: uppercase;
+           letter-spacing: 7.8px;
+           color: $f;
+       }
+       h2 
+       {
+           font-size:50px;
+           padding: 30px 0px;
+         
+       }
+   }
+   .banner-right 
+   {
+       width: 50%;
+       height: 360px;
+       background: $f;
+       border: none;
+       border-radius:5px;
+       h4 
+       {
+           color: $p;
+           text-align: center;
+           padding: 15px;
+           background: rgb(246, 243, 243);
+           border-bottom: 1px solid rgb(246, 243, 243);
+       }
+       p 
+       {
+           text-align: center;
+           padding: 10px 0px;
+           line-height:2;
+       }
+       .i 
+       {
+           text-align: center;
+           margin-left: 140px;
+           padding: 10px;
+           border-left: 1px dotted #000;
+           border-radius: 10px;
+       }
+       .k 
+       {
+          padding-top: 20px;
+          a 
+          {
+              text-decoration: none;
+              color: $f;
+          }
+       }
+       .j 
+       {
+           background: $b;
+           padding:10px 50px;
+           border: none;
+           border-radius: 10px;
+           text-align: center;
+           display: inline;
+           margin-left: 10px;
+           &:hover {
+            background: #7fe2b2;
+            color: #000;
+        }
+       }
+       .l
+       {
+           background: $b;
+           padding:10px 50px;
+           border: none;
+           border-radius: 10px;
+           text-align: center;
+           display: inline;
+           margin-left: 10px;
+           &:hover {
+            background: #7fe2b2;
+            color: #000;
+        }
+       }
+       .m
+       {
+           background: $b;
+           padding:10px 50px;
+           border: none;
+           border-radius: 10px;
+           text-align: center;
+           display: inline;
+           margin-left: 20px;
+           &:hover {
+            background: #7fe2b2;
+            color: #000;
+        }
+       }
+       .two 
+       {
+           padding-top:28px;
+           a 
+           {
+               text-decoration: none;
+           }
+       }
+       .butto 
+       {
+           background: $b;
+           padding:10px 50px;
+           display: inline;
+           color: $f;
+           text-align: center;
+           margin-left:140px;
+           border-radius: 10px;
+           &:hover {
+            background: #7fe2b2;
+            color: #000;
+        }
+       }
+       .end 
+       {
+           text-align: center;
+           padding:10px;
+           color: #000;
+        background: rgb(246, 243, 243);
+        border-bottom: 1px solid rgb(246, 243, 243);
+       }
+   }
+}
+
+.bt
+{
+ background: $b;
+ padding: 15px 40px;
+ color: $f;
+ border: none;
+ border-radius: 5px;
+ font-size:18px;
+ transition:0.5s;
+ line-height: 1;
+ &:hover
+ {
+    transform: scale(1.1);
+ }
+  }
+  .n
+{
+ background: $f;
+ padding: 15px 40px;
+ color: $b;
+ border: none;
+ border-radius: 5px;
+ font-size:18px;
+ transition:0.5s;
+ line-height: 1;
+ &:hover
+ {
+    transform: scale(1.1);
+ }
+  }
+
+  @media(max-width:500px)
+  {
+      .flex{flex-direction: column;}
+      .banner.banner-left{max-width:90%; padding-top: 0;}
+  }
